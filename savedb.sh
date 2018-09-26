@@ -9,4 +9,4 @@ cd ${REPO_DIR}
 ${GIT} add --all >> ~/these/logsavedb.log
 ${GIT} commit -m "database backup"
 ${GIT} push origin master
-echo "FIN" >> ~/these/logsavedb.log
+echo "OK" >> ~/these/logsavedb.log

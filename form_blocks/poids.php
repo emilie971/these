@@ -36,7 +36,7 @@
         <input type="radio" name="indice_poids" id="m1" value="m1">
         <label for="m3">M3</label>
         <input type="radio" name="indice_poids" id="m3" value="m3">
-        <label for="m7">M7</label>
-        <input type="radio" name="indice_poids" id="m7" value="m7">
+        <label for="m6">M6</label>
+        <input type="radio" name="indice_poids" id="m6" value="m7">
     </div>
 </div>

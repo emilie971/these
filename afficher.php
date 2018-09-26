@@ -17,7 +17,8 @@ $persisteur = new PersisteurDeDonnees();
 $patient = $persisteur->recuprerPatient($_GET['id']);
 
 foreach($patient as $champ => $valeur){
-		echo '<div class="col-4">'.preg_replace('/_/',' ',ucfirst($champ)) . ': ' . $valeur.'</div>';
+	$val = strlen($valeur)<1?'n/a':$valeur;
+		echo '<div class="col-4">'.preg_replace('/_/',' ',ucfirst($champ)) . ': ' . $val .'</div>';
 	}
 ?>
 </div>

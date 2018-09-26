@@ -8,5 +8,6 @@ mysqldump these these -uemilie -pguadeloupe -h127.0.0.1 > ~/dbbackup.sql
 sh ~/archivebackup.sh
 echo "OK" >> ~/these/logsavedb.log
 cd ${REPO_DIR}
-${GIT} commit -am 'database backup $(date +"%y-%m-%d %I:%M:%S")'
+COMMIT_DATE=$(date +"%y-%m-%d %I:%M:%S")
+${GIT} commit -am 'database backup ${COMMIT_DATE}'
 ${GIT} push origin master

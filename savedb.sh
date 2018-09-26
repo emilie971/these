@@ -9,5 +9,5 @@ sh ~/archivebackup.sh
 echo "OK" >> ~/these/logsavedb.log
 cd ${REPO_DIR}
 COMMIT_DATE=$(date +"%y-%m-%d %I:%M:%S")
-${GIT} commit -am 'database backup ${COMMIT_DATE}'
-${GIT} push origin master
+${GIT} commit -am "database backup ${COMMIT_DATE}"
+#${GIT} push origin master

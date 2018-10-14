@@ -2128,3 +2128,7 @@
 127.0.0.1 - - [14/Oct/2018:22:22:51 +0200] "GET /favicon.ico HTTP/1.1" 404 501 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0"
 127.0.0.1 - - [14/Oct/2018:22:22:51 +0200] "GET /favicon.ico HTTP/1.1" 404 501 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0"
 127.0.0.1 - - [14/Oct/2018:22:22:54 +0200] "POST /index.php?expoter HTTP/1.1" 200 39687 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0"
+127.0.0.1 - - [14/Oct/2018:22:44:14 +0200] "GET /index.php?editer&id=3 HTTP/1.1" 200 4200 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0"
+127.0.0.1 - - [14/Oct/2018:22:44:58 +0200] "POST /index.php?fiche_de_recueil&id=3 HTTP/1.1" 302 21103 "http://emilie.com/index.php?editer&id=3" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0"
+127.0.0.1 - - [14/Oct/2018:22:44:58 +0200] "GET /index.php HTTP/1.1" 200 3184 "http://emilie.com/index.php?editer&id=3" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0"
+127.0.0.1 - - [14/Oct/2018:22:45:00 +0200] "GET /index.php?editer&id=76 HTTP/1.1" 200 4254 "http://emilie.com/index.php" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0"

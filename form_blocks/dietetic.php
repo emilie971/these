@@ -37,9 +37,11 @@
     <div class="form-group">
         <label>Indication nutrition artificielle:</label>
         <label for="indication_nutition_artificielle_oui">oui</label>
-        <input type="radio" name="indication_nutition_artificielle" id="indication_nutition_artificielle_oui" value="oui">
+        <input type="radio" name="indication_nutition_artificielle" id="indication_nutition_artificielle_oui" value="oui" required>
         <label for="indication_nutition_artificielle_non">non</label>
-        <input type="radio" name="indication_nutition_artificielle" id="indication_nutition_artificielle_non" value="non">
+	<input type="radio" name="indication_nutition_artificielle" id="indication_nutition_artificielle_non" value="non">
+        <label for="indication_nutition_artificielle_nsp">NSP</label>
+        <input type="radio" name="indication_nutition_artificielle" id="indication_nutition_artificielle_nsp" value="nsp">
     </div>
     <div class="form-group">
         <label>Acceptation nutrition artificielle:</label>

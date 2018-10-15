@@ -92,6 +92,12 @@ echo "<form method=\"post\" action=\"$action\">"
 <?php }?>
 <script type="application/javascript">
     $(document).ready(function () {
+		
+		$("#type_nutrition_enteral").on("click", function(){
+			if($(this).is(":checked")){
+				$(this).prop('checked', false);
+			}
+		});
 
 		$('#date_de_naissance').on('change', function(){
 			calculerAge();

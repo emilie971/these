@@ -53,9 +53,9 @@
     <div class="form-group">
         <label>Type:</label>
         <label for="type_nutrition_enteral">entérale</label>
-        <input type="radio" name="type_nutrition" id="type_nutrition_enteral" value="enterale">
+        <input type="checkbox" name="type_nutrition" id="type_nutrition_enteral" value="enterale">
         <label for="type_nutrition_parenterale">parentérale</label>
-        <input type="radio" name="type_nutrition" id="type_nutrition_parenterale" value="parenteral">
+        <input type="checkbox" name="type_nutrition" id="type_nutrition_parenterale" value="parenteral">
     </div>
     <div class="form-group" id="ent">
         <label for="nutrition_enteral_sng">SNG</label>

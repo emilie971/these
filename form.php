@@ -92,11 +92,15 @@ echo "<form method=\"post\" action=\"$action\">"
 <?php }?>
 <script type="application/javascript">
     $(document).ready(function () {
-		
 		$("#type_nutrition_enteral").on("click", function(){
-			if($(this).is(":checked")){
-				$(this).prop('checked', false);
-			}
+			if($("#type_nutrition_parenterale").is(':checked')){
+				$("#type_nutrition_enteral").prop('checked', false);
+				}
+		});
+		$("#type_nutrition_parenterale").on("click", function(){
+			if($("#type_nutrition_enteral").is(':checked')){
+				$("#type_nutrition_parenterale").prop('checked', false);
+				}
 		});
 
 		$('#date_de_naissance').on('change', function(){
@@ -136,14 +140,17 @@ echo "<form method=\"post\" action=\"$action\">"
 
         $('#ent').css('display', 'none');
         $('#olimel').css('display', 'none');
+        $('#perikabiven').css('display', 'none');
 
         $("#type_nutrition_enteral").on('change', function () {
             $('#olimel').css('display', 'none');
+            $('#perikabiven').css('display', 'none');
             $('#ent').css('display', 'inline-block');
         });
         $("#type_nutrition_parenterale").on('change', function () {
             $('#ent').css('display', 'none');
             $('#olimel').css('display', 'inline-block');
+            $('#perikabiven').css('display', 'inline-block');
         });
 
         $('input[type="number"]').val(0);

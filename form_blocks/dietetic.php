@@ -71,7 +71,7 @@
         <label for="nutrition_parenteral_vitamines">Avec vitamines:</label>
         <input type="checkbox" name="nutrition_parenteral_vitamines" id="nutrition_parenteral_vitamines">
     </div>
-    <div class="form-group">
+    <div class="form-group" id="perikabiven">
         <label>Périkabiven:</label>
         <label for="perikabiven_oui">oui</label>
         <input type="radio" name="perikabiven" id="perikabiven_oui" value="oui">

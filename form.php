@@ -143,14 +143,19 @@ echo "<form method=\"post\" action=\"$action\">"
         $('#perikabiven').css('display', 'none');
 
         $("#type_nutrition_enteral").on('change', function () {
-            $('#olimel').css('display', 'none');
-            $('#perikabiven').css('display', 'none');
-            $('#ent').css('display', 'inline-block');
+			if($("#type_nutrition_enteral").is(':checked')){
+					$('#olimel').css('display', 'none');
+					$('#perikabiven').css('display', 'none');
+					$('#ent').css('display', 'block');
+			}
         });
+        
         $("#type_nutrition_parenterale").on('change', function () {
-            $('#ent').css('display', 'none');
-            $('#olimel').css('display', 'inline-block');
-            $('#perikabiven').css('display', 'inline-block');
+            if($("#type_nutrition_parenterale").is(':checked')){
+				$('#ent').css('display', 'none');
+				$('#olimel').css('display', 'block');
+				$('#perikabiven').css('display', 'block');
+			}
         });
 
         $('input[type="number"]').val(0);

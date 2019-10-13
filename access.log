@@ -2441,3 +2441,4 @@
 127.0.0.1 - - [05/Oct/2019:16:01:52 +0200] "GET /boostsrap/bootstrap.min.js HTTP/1.1" 200 13458 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
 127.0.0.1 - - [05/Oct/2019:16:01:52 +0200] "GET /boostsrap/jquery-3.2.1.slim.min.js HTTP/1.1" 200 24252 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
 127.0.0.1 - - [05/Oct/2019:16:01:52 +0200] "GET /boostsrap/popper.min.js HTTP/1.1" 200 7263 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [13/Oct/2019:16:18:21 +0200] "GET / HTTP/1.1" 200 3139 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"

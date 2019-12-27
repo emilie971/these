@@ -2522,3 +2522,8 @@
 127.0.0.1 - - [26/Dec/2019:21:35:54 +0100] "GET /boostsrap/bootstrap.min.css HTTP/1.1" 200 20900 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
 127.0.0.1 - - [26/Dec/2019:21:35:54 +0100] "GET /boostsrap/popper.min.js HTTP/1.1" 200 7263 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
 127.0.0.1 - - [26/Dec/2019:21:35:54 +0100] "GET /favicon.ico HTTP/1.1" 404 488 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [27/Dec/2019:13:13:55 +0100] "GET / HTTP/1.1" 200 3139 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [27/Dec/2019:13:13:57 +0100] "GET /boostsrap/bootstrap.min.css HTTP/1.1" 200 20899 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [27/Dec/2019:13:13:57 +0100] "GET /boostsrap/popper.min.js HTTP/1.1" 200 7263 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [27/Dec/2019:13:13:57 +0100] "GET /boostsrap/bootstrap.min.js HTTP/1.1" 200 13458 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [27/Dec/2019:13:13:57 +0100] "GET /boostsrap/jquery-3.2.1.slim.min.js HTTP/1.1" 200 24252 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"

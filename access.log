@@ -2584,3 +2584,5 @@
 127.0.0.1 - - [26/Jan/2020:16:17:53 +0100] "GET / HTTP/1.1" 200 3139 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
 127.0.0.1 - - [26/Jan/2020:16:17:55 +0100] "GET /boostsrap/bootstrap.min.css HTTP/1.1" 200 20899 "http://emilie.com/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
 127.0.0.1 - - [26/Jan/2020:16:17:55 +0100] "GET /favicon.ico HTTP/1.1" 404 489 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [30/Jan/2020:11:03:16 +0100] "GET / HTTP/1.1" 200 3139 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [30/Jan/2020:11:03:23 +0100] "GET /favicon.ico HTTP/1.1" 404 489 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
